@@ -1,0 +1,11 @@
+---
+# list of servers
+# change to your own list, note YAML syntax, each
+# server entry starts with a hyphen
+servers:
+  - server : foo.bar.com
+    port : 22
+  - server : foo2.bar.com
+    port : 22
+# slack webhook data  
+slackhook: yourown/slack/hookdata
