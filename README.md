@@ -23,8 +23,8 @@ is typically 22, but we change the default on many of our servers to cut down on
 attacks.
 
 ### Running the code
-- *python whosup.py* will run the program, and assume the input YAML file is in the same
+- *./whosup.py* will run the program, and assume the input YAML file is in the same
 directory and named *whosup.yaml*
-- *python whosup.py -h* gives a very minimal help message.
-- *python whosup.py -f your.yaml* will run the program with the YAML input file of your
+- *./whosup.py -h* gives a very minimal help message.
+- *./whosup.py -f your.yaml* will run the program with the YAML input file of your
 choosing.
