@@ -2,7 +2,7 @@
 The purpose of *whosup.py* is to provide an extremely simple app that regularly
 polls a set of servers, and reports when one or more goes down. I wrote this to
 aid in keeping track of power outages in my laboratories at Dalhousie
-University.  we use uninterruptible power supplies, but regardless, if there's
+University.  We use uninterruptible power supplies, but regardless, if there's
 a power outage we need to know about it. A clear signal is that the (wired)
 internet has failed in our building. When that happens, this code gives a
 visual cue and also triggers a message to be sent to us on a Slack channel.
